@@ -3,7 +3,7 @@ import numpy as np
 from dotenv import load_dotenv
 import openai
 
-openai.api_key = "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"
+openai.api_key = ""
 
 
 from langchain_community.document_loaders import TextLoader
