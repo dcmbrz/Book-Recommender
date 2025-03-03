@@ -33,7 +33,7 @@ text_splitter = CharacterTextSplitter(separator='\n', chunk_size=500, chunk_over
 documents = text_splitter.split_documents(raw_documents)
 
 # Convert documents into embeddings and store in Chroma
-db_books = Chroma.from_documents(documents, OpenAIEmbeddings(openai_api_key = "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"))
+db_books = Chroma.from_documents(documents, OpenAIEmbeddings(openai_api_key = ""))
 
 
 def retrieve_sematic_recommendations(
